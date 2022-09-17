@@ -1,0 +1,530 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --bai-jam: 'Bai Jamjuree', sans-serif;
+    --strong-cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --grayish-blue: hsl(201, 11%, 66%);
+}
+
+body {
+    font-family: var(--bai-jam);
+    font-size: 18px;
+    
+    
+    
+}
+
+.container {
+    /* width: 100%;
+    max-width: 1000px; */
+    margin: auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 500px 1fr;
+    grid-template-rows: repeat(2, auto);
+    
+}
+
+.container .header {
+    grid-column: span 2;
+    grid-row: span 2;
+    position: relative;
+}
+
+.container .header .img {
+    width: 100%;
+}
+.position {
+    position: absolute;
+    top: 70%;
+    left: 45%;
+
+}
+
+
+.container .content {
+    grid-column: span 2;
+}
+
+.container .footer {
+    grid-column: 1 / -1;
+}
+
+.history {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittle {
+    color: var(--dark-grayish-blue);
+    padding-top: 92px;
+}
+
+.history .paragraph1 {
+    color: var(--grayish-blue);
+    font-size: 16px;
+    width: 600px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    
+}
+
+.button-father {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.button {
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: var(--strong-cyan);
+    border-radius: 30px;
+    padding: 10px 40px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.button1 {
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: var(--light-blue);
+    border-radius: 30px;
+    padding: 10px 40px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.keep-track {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle {
+    padding-top: 80px;
+    color: var(--dark-grayish-blue)
+}
+
+.paragraph2 {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    
+    text-align: center;
+    font-size: 16px;
+    color: var(--grayish-blue);
+    width: 650px;
+
+   
+
+}
+
+.monitor {
+
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.sub-monitor {
+    height: 500px;
+    
+    /* padding: 10px 50px; */
+    /* line-height: 30px; */
+    
+}
+
+.sub-monitor .subtitle {
+    font-size: 18px;
+}
+
+.sub-monitor .paragraph3 {
+    font-size: 14px;
+    color: var(--grayish-blue);
+    width: 300px;
+    
+}
+
+.clipboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.clipboard .paragraph4 {
+    color: var(--grayish-blue);
+    width: 700px;
+    padding-bottom: 60px;
+}
+
+.workflow {
+    margin-top: 10%;
+    padding: 0 10%;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+
+.workflow .paragraph5 {
+    color: var(--grayish-blue);
+    margin-top: 20px;
+}
+
+.little-icons {
+    display: flex;
+    
+    
+    
+}
+
+.little-icons-icons {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.little-icons-icons .name{
+    color: var(--dark-grayish-blue);
+}
+
+.little-icons-icons .blacklists {
+    align-self: center;
+    margin-bottom: 10%;
+}
+
+.little-icons-icons .text {
+    align-self: center;
+    margin-bottom: 10%;
+}
+
+.little-icons-icons .preview {
+    align-self: center;
+    margin-bottom: 10%;
+}
+.little-icons-icons .paragraph6 {
+    font-size: 14px;
+    color: var(--grayish-blue);
+    margin-top: 10px;
+    width: 300px;
+}
+
+.images {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.end {
+    margin: 0;
+   
+}
+
+.end .paragraph7 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: var(--grayish-blue);
+    font-size: 14px;
+    width: 550px;
+    margin-left: 180px;
+    
+
+    
+   
+}
+
+
+.footer {
+    margin-top: 10%;
+    background-color: #f5f6f8;
+    height: auto;
+    width: 100%;
+    position: relative;
+    
+}
+
+.question {
+    display: flex;
+    
+    gap: 28px;
+    margin-left: 300px;
+    padding: 15px;
+    flex-wrap: wrap;
+    width: 400px;
+    text-decoration: none;
+   
+}
+.question .question-footer {
+    text-decoration: none;
+    color: var(--grayish-blue);
+ }
+
+.logo-footer {
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    left: 160px;
+    
+}
+.social {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 15px;
+    left: 80%;
+    padding: 20px;
+    
+}
+
+ @media screen and (max-width: 768px) {
+   
+    .container {
+        display: grid;
+        grid-template-columns: 768px;
+        
+        justify-content: center;
+        grid-gap: 20px;
+        
+    }
+   
+    .header {
+      
+        background-image: url("..images/bg-header-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        position: relative;
+    }
+    .position{
+        position: relative;
+        
+    }
+    .logo{
+        top: -255px;
+        left: -24px;
+       position: absolute;
+       width: 17%;
+        
+        
+    }
+    .content{
+       
+    }
+
+    .tittle{
+        font-size: 40px;
+        width: 55%;
+        text-align: center;
+    }
+
+    .history .paragraph1{
+        
+        font-size: 20px;
+        width: 50%;
+    }
+
+    .button-father{
+        display: flex;
+        flex-direction: column;
+    }
+    .subtitle{
+        font-size: 38px;
+        width: 55%;
+        text-align: center;
+    }
+    .paragraph2{
+        font-size: 18px;
+        width: 35%;
+    }
+
+    .computer{
+        width: 50%;
+    }
+
+    .monitor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sub-monitor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+        
+    }
+    .sub-monitor .subtitle {
+        font-size: 24px;
+        
+    }
+
+    .sub-monitor .paragraph3 {
+        padding-top: 10px;
+        font-size: 18px;
+        width: 50%;
+        text-align: center;
+    }
+    .clipboard .subtitle{
+        font-size: 38px;
+    }
+
+    .clipboard .paragraph4{
+        font-size: 18px;
+        width: 40%;
+        text-align: center;
+    }
+
+    .devices{
+        width: 50%;
+    }
+    .workflow{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .workflow .subtitle{
+       
+        font-size: 38px;
+    }
+    .workflow .paragraph5{
+        font-size: 18px;
+        width: 40%;
+    } 
+
+    .little-icons{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .little-icons .little-icons-icons h3 {
+        font-size: 24px;
+    }
+    .blacklists, .text, .preview{
+        width: 60px;
+    }
+
+    .little-icons .paragraph6{
+        font-size: 18px;
+        width: 60%;
+    }
+
+    .images{
+        margin-top: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .end{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .end .subtitle{
+        width: 70%;
+        margin-top: 250px;
+        font-size: 38px;
+    }
+
+    .end .paragraph7{
+        margin: auto;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 18px;
+        width: 60%;
+        
+    }
+
+    .button{
+        font-size: 18px;
+        padding: 20px 120px;
+        box-shadow: 1px 2px 4px 2px var(--dark-grayish-blue);
+    }
+
+    .button1{
+        margin-top: 35px;
+        font-size: 18px;
+        padding: 20px 120px;
+        box-shadow: 1px 2px 4px 2px var(--dark-grayish-blue);
+    }
+    
+    .footer{
+        
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+    .question{
+        padding-top: 90px;
+        padding-bottom: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        
+    }
+    .question .question-footer{
+        font-size: 18px;
+    }
+
+    .logo-footer{
+        width: 60px;
+        position: absolute;
+        left: 46%;
+    }
+    .social{
+        gap: 50px;
+       position: absolute;
+       top: 75%;
+       left: 36%;
+    }
+    
+    }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
