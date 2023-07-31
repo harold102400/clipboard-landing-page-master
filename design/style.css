@@ -145,7 +145,7 @@ body {
 }
 
 .little-icons-icons {
-    margin-top: 10%;
+    margin-top: 30px;
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -344,6 +344,7 @@ footer .container {
     .little-icons {
         display: flex;
         flex-direction: column;
+        width: 300px;
     }
 
     .little-icons .little-icons-icons h3 {
